@@ -1,0 +1,118 @@
+:root {
+    --cor-primaria: #3923F9;
+    --cor-secundaria: #FAF523;
+    --cor-terciaria: #FAC123;
+    --cor-quaternaria: #534E7A;
+    --cor-quintenaria: #7A794E;
+    --cor-fundo: #7A6F4E;
+    --cor-texto: #ffffff;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--cor-terciaria);
+    color: rgb(41, 41, 41);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px #3b3626;
+}
+
+#apresentacao {
+    background-color: var(--cor-quaternaria);
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #3b3626;
+}
+#apresentacao img{
+    border-radius: 15px;
+}
+
+#circulo-cromatico {
+    background-color: var(--cor-quaternaria);
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #3b3626;
+}
+#circulo-cromatico li{
+    padding: 5px;
+}
+#circulo-cromatico img{
+    border-radius: 15px;
+    width: 30%;
+}
+
+#harmonias-cromaticas {
+    background-color: var(--cor-quaternaria);
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #3b3626;
+}
+#harmonias-cromaticas p{
+    padding: 10px;
+}
+#harmonias-cromaticas img{
+    padding-bottom: 40px;
+    width: 300px;
+}
+#columns {
+    display: flex;
+    text-align: center;
+}
+
+#significados {
+    background-color: var(--cor-quaternaria);
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #3b3626;
+}
+#significados div{
+    padding: 20px;
+}
+
+#final {
+    display: flex;
+}
+
+#site {
+    width: 50%;
+    background-color: var(--cor-quaternaria);
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #3b3626;
+}
+#site p{
+    padding: 20px;
+}
+
+#ferramentas {
+    width: 50%;
+    background-color: var(--cor-quaternaria);
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #3b3626;
+}
+#ferramentas a{
+    color: var(--cor-secundaria);
+}
+
+footer {
+    background-color: var(--cor-terciaria);
+    color: rgb(41, 41, 41);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px #3b3626;
+}
