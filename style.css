@@ -52,25 +52,30 @@ header {
 }
 
 #harmonias-cromaticas {
+    display: flex;
+}
+#column1 {
+    width: 50%;
     background-color: var(--cor-quaternaria);
     padding: 20px 40px;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0px 2px 5px #3b3626;
 }
-#harmonias-cromaticas p{
-    padding: 10px;
+#column1 img{
+    width: 35%;
 }
-#harmonias-cromaticas img{
-    padding-bottom: 40px;
-    width: 300px;
+
+#column2 {
+    width: 50%;
+    background-color: var(--cor-quaternaria);
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #3b3626;
 }
-#columns {
-    display: flex;
-    text-align: center;
-}
-#column-2 {
-    text-align: right;
+#column2 img{
+    width: 35%;
 }
 
 #significados {
